@@ -175,3 +175,37 @@ div.rectangle {
     font-weight: bold;
     color: #1F2937;
 }
+
+/* CTA section */
+
+.cta-card {
+    background-color: #3882f6;
+    width: 80%;
+    padding: 60px 160px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+h2.card-title, p.card-text {
+    color: #f9faf8;
+    margin: 0;
+}
+
+button.CTA {
+    border-color: #f9faf8;
+    border-style: solid;
+    padding: 8px 32px;
+}
+
+a.CTA {
+    color: #f9faf8;
+    font-weight: 700;
+}
